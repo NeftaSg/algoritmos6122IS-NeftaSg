@@ -1,0 +1,10 @@
+Algoritmo area_de_un_triangulo
+	Definir b, h, at Como Real;
+	Escribir "CALCULA EL ÁREA DE UN TRIÁNGULO";
+	Escribir "ingresa el valor de la base";
+	Leer b;
+	Escribir "ingresa el valor de la altura";
+	Leer h;
+	at <- (b*h)/2;
+	Escribir "el área del triangulo es:", at;
+FinAlgoritmo

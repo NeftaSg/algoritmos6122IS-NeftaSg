@@ -1,0 +1,37 @@
+Algoritmo clasificacion_edad
+	Definir edad como Entero;
+	Escribir "HELOUU!, dime tu edad y te diré que eres :)";
+	Leer edad;
+	si (edad >0) & (edad <3) Entonces
+		Escribir "eres un bby";
+	FinSi
+	Si (edad >=3) & (edad <10) 
+		Escribir "eres un chamaco";
+	FinSi
+	Si (edad >=10) & (edad <16) 
+		Escribir "eres un puberto aaa";
+	FinSi
+	Si (edad >=16) & (edad <26) 
+		Escribir "eres la chavizaa";
+	FinSi
+	Si (edad >=26) & (edad <41) 
+		Escribir "eres chavoruco pá";
+	FinSi
+	Si (edad >=41) & (edad <61) 
+		Escribir "eres un Don jsjsjs";
+	FinSi
+	Si (edad >=61) & (edad <81) 
+		Escribir "estas viejooo";
+	FinSi
+	Si (edad >=81) & (edad <=120)
+		Escribir "eres un milagro de vida";
+	FinSi
+	Si (edad >=121) 
+		Escribir "los muertos no hablan";
+	FinSi
+	Si (edad <0) 
+		Escribir "tas mal pá, escribe una edad real";
+	FinSi
+	
+FinAlgoritmo
+

@@ -1,0 +1,28 @@
+Algoritmo de_mayor_a_menor
+	Definir d1, d2, d3 como real;
+	Escribir "ORDENACIÓN DE MAYOR A MENOR";
+	Escribir "Ingresa un primer dígito: ";
+	Leer d1;
+	Escribir "Ingresa un segundo dígito: ";
+	Leer d2;
+	Escribir "Ingresa un tercer dígito: ";
+	Leer d3;
+	si (d1>d2) & (d1>d3) & (d2>d3) Entonces
+		Escribir "el orden es: ", d1,", ",d2,", ",d3;
+	FinSi
+	si (d1>d2) & (d1>d3) & (d3>d2) Entonces
+		Escribir "el orden es: ", d1,", ",d3,", ",d2;
+	FinSi
+	si (d2>d1) & (d2>d3) & (d1>d3) Entonces
+		Escribir "el orden es: ", d2,", ",d1,", ",d3;
+	FinSi
+	si (d2>d1) & (d2>d3) & (d3>d1) Entonces
+		Escribir "el orden es: ", d2,", ",d3,", ",d1;
+	FinSi
+	si (d3>d1) & (d3>d2) & (d1>d2) Entonces
+		Escribir "el orden es: ", d3,", ",d1,", ",d2;
+	FinSi
+	si (d3>d1) & (d3>d2) & (d2>d1) Entonces
+		Escribir "el orden es: ", d3,", ",d2,", ",d1;
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,19 @@
+Algoritmo identifica_numero_mayor
+	Definir n1, n2, n3 Como Real;
+        Escribir "IDENTIFICADOR DE NÚMERO MAYOR";
+	Escribir "ingresa un primer número:";
+	Leer n1;
+	Escribir "ingresa un segundo número:";
+	Leer n2;
+	Escribir "ingresa un tercer número:";
+	Leer n3;
+	si (n1>n2) & (n1>n3) Entonces
+		Escribir "el número mayor es: ", n1;
+	FinSi
+	si (n2>n1) & (n2>n3) Entonces
+		Escribir "el número mayor es: ", n2;
+	FinSi
+	si (n3>n1) & (n3>n2) Entonces
+			Escribir "el número mayor es: ", n3;
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,15 @@
+Algoritmo numeromayor_entre_numeromenor
+	Definir v1, v2, div1, div2 como real;
+	Escribir "NÚMERO MAYOR ENTRE NÚMERO MENOR";
+	Escribir "Indica un primer dígito: ";
+	Leer v1;
+	Escribir "Indica un segundo dígito: ";
+	Leer v2;
+	div1 <- v1/v2;
+	div2 <- v2/v1;
+	si (v1>v2) Entonces
+		Escribir "el resultado de ",v1, " entre ",v2, " es:" div1;
+	SiNo
+		Escribir "el resultado de ",v2, " entre ",v1, " es:" div2;
+	FinSi
+FinAlgoritmo

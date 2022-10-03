@@ -1,0 +1,25 @@
+Algoritmo sueldo
+	Definir ds, s, h, sxdia, sxhora, horasxdia, sxhdoble, sxhtriple, mult1, mult2 Como Real;
+	Escribir "¿Cuantos dias trabajas a la semana?";
+	Leer ds;
+	Escribir "¿Cual es tu sueldo semanal?";
+	Leer s;
+	Escribir "¿cuantas horas trabajaste esta semana?";
+	Leer h;
+	sxdia <- s/ds
+	horasxdia <- h/ds
+	sxhora <- sxdia/horasxdia
+	sxhdoble <- sxhora*2
+	sxhtriple <- sxhora*3
+	mult1 <- s+sxhdoble
+	mult2 <- s+sxhtriple
+	si (h<35) Entonces
+		Escribir "tu sueldo se paga normal, es decir:",s;
+	FinSi
+	si (h>=35) & (h<45) Entonces
+		Escribir "tu sueldo se pagará normal y cada hora extra se te pagará al doble, es decir " s," + ",sxhdoble, " en total: ", mult1;
+	FinSi
+	si (h>=45) Entonces	
+		Escribir "tu sueldo se pagará normal y cada hora extra se te pagará al triple, es decir " s," + ",sxhtriple, " en total: ",mult2;
+	FinSi
+FinAlgoritmo
