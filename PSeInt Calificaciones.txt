@@ -1,0 +1,27 @@
+Algoritmo sin_titulo
+	Definir j, k, l, m, n, p, q, v1, v2, rsh Como Real
+	Escribir "--- CALIFICACIONES ---";
+	Escribir "nota: para el derecho a la evaluación del exámen, el alumno debe contar con mínimo el 80% de las firmas obtenidas en clase";
+	Escribir "Ingrese el número máximo de firmas: ";
+	Leer j;
+	k <- j*0.80;
+	Escribir "Ingrese el número de firmas obtenidas por el alumno: ";
+	Leer l;
+	si l >= k Entonces
+		Escribir "El alumno tiene derecho a la evaluación del exámen :)"
+		Escribir "Ingrese el porcentaje del exámen: ";
+		Leer m;
+		Escribir "Ingrese los puntos obtenidos por el alumno: ";
+		Leer n;
+		p <- (n*10) / m;
+		Escribir "la calificación de la evaluación SABER es: ", p, " es decir el " n,"% del mismo";
+	SiNo
+		Escribir "El alumno no tiene derecho a la evaluación del exámen ):";
+	FinSi
+	Escribir "Ingresa el porcentaje de la evaluación del saber hacer: ";
+	leer v1;
+	Escribir "Ingresa el puntaje obtenido por el alumno: ";
+	Leer v2;
+	rsh <- (v2*10) / v1;
+	Escribir "la calificación de la evaluación SABER HACER es: ", rsh, " es decir el " v1,"% del mismo";
+FinAlgoritmo
