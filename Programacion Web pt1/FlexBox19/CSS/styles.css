@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+section{
+    display: flex;
+}
+#s1{
+    flex-direction: column;
+    float: left;
+}
+#s1-sub1{
+    flex-direction: row;    
+}
+#s2{
+    flex-direction: column;
+    float: left;
+}
+#s3{
+    flex-direction: column;
+}
+#s4{
+    flex-direction: row;
+}
+#s5{
+    flex-direction: row; 
+}
+#s5-sub{
+    flex-direction: column;
+}
+#saux{
+    flex-direction: column;
+    float: left;
+}
+#s6{
+    flex-direction: column;
+}
+article{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px;
+    gap: 20px;
+}
+#a1{
+    height: 150px;  
+    width: 600px;
+}
+#a2{
+    height: 3px;
+    width: 170px;
+}
+#a3{
+    height: 150px;
+    width: 170px;
+}
+#a4{
+    height: 3px;
+    width: 600px;
+}
+#a5{
+    height: 3px;
+    width:230px;
+}

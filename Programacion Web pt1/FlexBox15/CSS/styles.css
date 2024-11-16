@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    margin: 20px;
+}
+#sec1{
+display: flex;
+}
+article{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 25vh;
+}
+#art1{
+    width: 100%;
+}

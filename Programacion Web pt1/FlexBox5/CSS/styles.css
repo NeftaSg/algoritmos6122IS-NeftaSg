@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    margin: 20px;
+}
+article{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 35vh;
+}

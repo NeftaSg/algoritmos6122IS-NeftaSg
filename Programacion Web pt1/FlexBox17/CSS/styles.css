@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.a{
+    display: inline-block;
+    float: left;
+}
+.b{
+    display: inline-block;
+    float: right;
+
+}
+
+#contenedor {
+
+    margin: 20px;
+}
+
+
+article{    
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 450px;
+}
+
+#art1{
+    height: 100vh;
+}
+
+#art2{
+    height: 25vh;
+}

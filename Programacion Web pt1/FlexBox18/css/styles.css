@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+article{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    border-radius:20px;
+}
+#a1 {
+    height: 200px;
+    width: 80%;
+
+}
+
+#a2{
+    height: 90px;
+    width: 100px;
+}
+#a3{
+    height: 30px;
+    width: 100px;
+}
+section{
+    display: flex;
+
+}
+#contenedor{
+    flex-direction: column;
+}
