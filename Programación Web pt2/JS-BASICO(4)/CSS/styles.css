@@ -1,0 +1,29 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+section{
+    display: flex;
+    gap: 20px; /*hace una separación entre cada articulo*/
+}
+article{
+    border: 1px solid #000; /*Hace ver el borde de un elemento*/
+    padding: 20px;
+    width: 100%;
+}
+h1{
+    text-align: center; 
+}
+h2{
+    text-align: center; /*Alinea el texto en el centro*/
+}
+ul{
+    list-style: none; /*Elimina simbolos de viñeta*/
+    padding-left: 0px; /*Alinea los elementos en lista a la derecha*/
+    font-size:larger;
+}
+#a1{
+    background-color:honeydew;
+}
+#a2{
+    background-color:aliceblue;
+}
