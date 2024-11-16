@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba de Pago con PayPal</title>
+    <!-- Incluir el SDK de PayPal -->
+    <script src="https://www.paypal.com/sdk/js?client-id=Aa6q3DMlKYCdTm3VmQ0gWrQo2Sm8KlGe01cq7uebdUH5yBQSElNHENRYjskWLTWJO6ZKAcezQYnSD0KO&currency=USD"></script>
+</head>
+<body>
+    <h1>Pagar con PayPal o Tarjeta</h1>
+    <div id="paypal-button-container"></div>
+
+    <script>
+        paypal.Buttons({
+            createOrder: function(data, actions) {
+                // Configura el pago en el frontend
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '10.00' // Monto a pagar
+                        }
+                    }]
+                });
+            },
+            onApprove: function(data, actions) {
+                // Captura el pago después de que el cliente lo aprueba
+                return actions.order.capture().then(function(details) {
+                    alert('Pago completado con éxito por ' + details.payer.name.given_name);
+                    window.location.href = "/success";  // Redirige a una página de éxito
+                });
+            },
+            onCancel: function(data) {
+                // Maneja la cancelación del pago
+                alert('Pago cancelado');
+                window.location.href = "/cancel";  // Redirige a una página de cancelación
+            },
+            onError: function(err) {
+                console.error(err);
+                alert('Hubo un error en el proceso de pago');
+            }
+        }).render('#paypal-button-container');
+    </script>
+</body>
+</html>
