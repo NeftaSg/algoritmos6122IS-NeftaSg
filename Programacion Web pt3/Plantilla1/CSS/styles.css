@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    display: flex;
+    text-align: center;
+}
+article{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#s2{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#s2-links{
+    display: flex;
+}
+#s1{
+    background-color: beige;
+    justify-content: center;
+}
+#fondoimg1{
+    background-image:url(https://cdn.pixabay.com/photo/2018/01/04/19/57/plants-3061511_1280.jpg);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#fondoimg2{
+    width: 60%;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-pantalla-hojas-concepto-lamina-metalica_79603-942.jpg);
+}
+#fondoimg3{
+    width: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO67Q2ugyaxIc-zYdTCNMnbyMIY4TCl0En6UQuYJaQl02WE5CVN9aPJZW4tuodEeMlIyI&usqp=CAU);
+}
+button{
+    border-radius: 20px;
+    background-color:rgb(255, 255, 0);
+    width: 100px;
+    height: 5vh;
+}
+h1{
+    color: rgb(102, 200, 5);
+    font-size: xx-large;
+}
+a{
+    color:green;
+    margin: 20px;
+}
+img{
+    margin: 20px;
+}
+#s3{
+    background-color: beige;
+    text-align-last: center;
+    height: 40vh;
+}
+#s4{
+    height: 50vh;
+}
+#s5{
+    background-color: beige;
+    height: 40vh;   
+}
+#s6{
+    height: 70vh;
+}
+#s7{
+    background-color: beige;
+    height: 65vh;
+}
+#divColumna{
+    flex-direction: column;
+}
+#divFila{
+    display: flex;
+}

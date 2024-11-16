@@ -1,0 +1,59 @@
+<html>
+<head></head>
+<body>
+<input type="text" id="c1" name="c1" size=5>
+ <input typetype="text" id="c2" name="c2" size=5>
+<div></div>
+<button onclick="suma()">sumar</button>
+<button onclick="resta()">restar</button>
+<button onclick="multiplicacion()">multiplicar</button>
+<button onclick="division()">dividir</button>
+<button onclick="raiz()">raiz cuadrada</button>
+
+</body>
+<script>
+var c1,c2,s
+function suma(){
+  c1= document.getElementById("c1").value
+  c2= document.getElementById("c2").value
+s=parseInt(c1)+parseInt(c2)
+  alert(s)
+  }
+function resta(){
+  c1= document.getElementById("c1").value
+  c2= document.getElementById("c2").value
+s=parseInt(c1)-parseInt(c2)
+  alert(s)
+  }
+function multiplicacion(){
+  c1= document.getElementById("c1").value
+  c2= document.getElementById("c2").value
+s=parseInt(c1)*parseInt(c2)
+alert(s)
+  }
+function division(){
+  c1= document.getElementById("c1").value
+  c2= document.getElementById("c2").value
+s=parseInt(c1)/parseInt(c2)
+if(c2==0){
+    alert("la división entre 0 no existe")
+}else{
+  alert(s)
+  }
+  }
+function raiz(){
+  c1= document.getElementById("c1").value
+s=Math.sqrt(c1)
+    if(c1<0){
+      alert("las raices negativas no existen")
+  }else{
+      alert(s)
+  }
+  }
+ /* var a,b,s
+a=5
+b=3
+s= a + b
+alert(5) */
+</script>
+</html>
