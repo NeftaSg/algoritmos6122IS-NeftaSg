@@ -1,0 +1,3 @@
+class audifono extends dispositivos{
+    
+}

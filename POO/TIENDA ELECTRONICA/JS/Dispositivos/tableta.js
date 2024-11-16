@@ -1,0 +1,3 @@
+class tableta extends dispositivos{
+    
+}

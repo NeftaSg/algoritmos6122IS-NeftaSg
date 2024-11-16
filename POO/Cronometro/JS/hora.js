@@ -1,0 +1,2 @@
+class hora extends tiempo{
+}

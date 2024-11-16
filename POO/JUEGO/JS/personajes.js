@@ -1,0 +1,19 @@
+class personaje{
+    constructor(vidas,tipo,sonido,movimiento,arma,habilidad){
+        this.vidas;
+        this.tipo;
+        this.sonido;
+        this.movimiento;
+        this.arma;
+        this.habilidad;
+    }
+    atacar(){}
+    curar(){}
+    morir(){}
+    mejorar(){}
+    revivir(){}
+    aventarse(){}
+    caminar(){}
+    correr(){}
+    saltar(){}
+}

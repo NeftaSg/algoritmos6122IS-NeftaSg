@@ -1,0 +1,3 @@
+class computadora extends dispositivos{
+    
+}

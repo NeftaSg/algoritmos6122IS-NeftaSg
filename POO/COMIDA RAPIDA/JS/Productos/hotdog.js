@@ -1,0 +1,3 @@
+class hotdog extends productos{
+    
+}

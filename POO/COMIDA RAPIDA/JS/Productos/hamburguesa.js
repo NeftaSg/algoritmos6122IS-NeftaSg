@@ -1,0 +1,3 @@
+class hamburguesa extends productos{
+    
+}

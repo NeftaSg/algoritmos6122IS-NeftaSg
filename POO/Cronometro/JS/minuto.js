@@ -1,0 +1,2 @@
+class minuto extends tiempo{
+}
