@@ -1,0 +1,36 @@
+
+body {
+    
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000000;
+    
+    background-color: #FBEED7;
+    background-position: center;
+}
+h1{
+    color:#946D43; 
+    text-align: center
+}
+h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+footer{
+    background-color: #946D43;
+    color: #FBEED7;
+}
+#imgleche{
+    align-items: center;
+}
