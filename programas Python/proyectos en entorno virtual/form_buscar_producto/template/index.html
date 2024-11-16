@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar producto</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}">
+</head>
+<body>
+    <form action="/buscar-producto" method="GET">
+        <label for="producto">Nombre del producto</label>
+        <input type="text" id="producto" name="producto">
+        <br>
+        <br>
+        <label for="categoria">Categoria</label>
+        <select id="categoria" name="categoria">
+            <option value="electronica">Electronica</option>
+            <option value="ropa">Ropa</option>
+            <option value="hogar">Hogar</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Buscar">
+    </form>
